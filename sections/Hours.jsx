@@ -20,16 +20,16 @@ const Hours = () => {
         Operating Schedule
       </p>
       <h2 className="text-4xl font-bold text-white mb-6 font-serif">Working Hours</h2>
-      <div className="border-t border-rose-500 w-12 mx-auto mb-6" />
+      <div className="border-t border-rose-500 w-20 mx-auto mb-6" />
       <div className="space-y-4 text-left">
         {[
           ['Monday', 'Closed'],
-          ['Tuesday', '8 AM – 7 PM'],
-          ['Wednesday', '8 AM – 7 PM'],
-          ['Thursday', '8 AM – 7 PM'],
-          ['Friday', '8 AM – 7 PM'],
-          ['Saturday', '10 AM – 7 PM'],
-          ['Sunday', '10 AM – 5 PM'],
+          ['Tuesday', '9 AM – 5 PM'],
+          ['Wednesday', '9 AM – 5 PM'],
+          ['Thursday', '9 AM – 5 PM'],
+          ['Friday', '9 AM – 5 PM'],
+          ['Saturday', '9 AM – 5 PM'],
+          ['Sunday', '9 AM – 5 PM'],
         ].map(([day, time]) => (
           <div key={day} className="flex justify-between border-b border-gray-700 pb-1">
             <span className="font-semibold text-white">{day}</span>

@@ -6,7 +6,8 @@ const Items = () => {
     aria-labelledby="items-heading"
     className="scroll-mt-15 bg-[#f3efe8] py-20 px-6 md:px-16"
   >
-    <h2 id="items-heading" className="sr-only">Featured Café Items</h2>
+    <h2 id="items-heading" className="text-color-[#f3efe8] text-4xl font-bold text-black mb-4 text-center">Featured Café Items</h2>
+    <div className="border-t border-rose-500 w-20 mx-auto m-8" />
   
     <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 text-center md:text-left">
       {/* Item 1 */}
@@ -52,7 +53,7 @@ const Items = () => {
           <span className="text-4xl font-serif text-cozy-gold font-semibold italic">03</span>
           <h3 className="text-lg font-bold tracking-wide uppercase text-gray-800">Pastries</h3>
         </div>
-        <p className="text-gray-600 text-sm leading-relaxed">
+        <p className="text-gray-600  text-sm leading-relaxed">
           Freshly baked pastries perfect for pairing with your favorite coffee.
         </p>
       </article>

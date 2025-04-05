@@ -27,7 +27,7 @@ const Hero = () => {
       {/* Supporting Info */}
       <address className="relative z-10 not-italic mt-6 text-white text-lg md:text-xl">
         <p>3612 Spring Garden St #A, Greensboro, NC 27407</p>
-        <p className="mt-1 text-xl md:text-2xl">
+        <p className="bg-red-500 p-2 rounded-xl mt-3 text-xl md:text-2xl">
           <a href="tel:13364588100" className="hover:underline">
             (336) 458-8100
           </a>

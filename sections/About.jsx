@@ -8,10 +8,10 @@ const About = () => {
       aria-labelledby="about-heading"
     >
       <header>
-        <h2 id="about-heading" className="text-3xl font-bold text-rose-700 mb-4">
+        <h2 id="about-heading" className="text-4xl font-bold text-rose-700 mb-4">
           Our Establishment
         </h2>
-        <div className="border-t border-rose-500 w-12 mx-auto mb-6" />
+        <div className="border-t border-rose-500 w-20 mx-auto m-8" />
       </header>
 
       <article className="max-w-3xl mx-auto text-white text-lg">

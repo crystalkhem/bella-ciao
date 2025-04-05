@@ -58,9 +58,7 @@ export default function HomePage() {
         "servesCuisine": ["Coffee", "Crepes", "Pastries"],
         "priceRange": "$",
         "openingHours": [
-          "Tu-Fr 08:00-19:00",
-          "Sa 10:00-19:00",
-          "Su 10:00-17:00"
+          "Tu-Su 09:00-17:00"
         ]
       })
     }} />
