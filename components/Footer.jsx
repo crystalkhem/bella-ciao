@@ -6,10 +6,10 @@ const Footer = () => {
       itemScope
       itemType="https://schema.org/LocalBusiness"
     >
-      <h2 className="text-4xl font-bold text-rose-500 mb-6" itemProp="name">
+      <h2 className="text-4xl font-bold text-rose-500 " itemProp="name">
         Contact Us
       </h2>
-      <div className="border-t border-rose-500 w-20 mx-auto m-8" />
+      <div className="border-t border-neutral-500 w-20 mx-auto m-5" />
 
       <address
         className="not-italic mb-6 text-center text-base leading-relaxed"
@@ -38,6 +38,7 @@ const Footer = () => {
         </p>
         <p className="text-white">Just minutes from UNC Greensboro!</p>
       </address>
+      <div className="border-t border-neutral-500 w-20 mx-auto mb-8" />
 
       <div className="w-full h-full max-w-4xl aspect-video rounded-xl overflow-hidden shadow-lg">
         <iframe
