@@ -25,13 +25,12 @@ const Hero = () => {
       </h1>
 
       {/* Supporting Info */}
-      <address className="relative z-10 shadow-sm not-italic mt-6 text-white text-lg md:text-xl">
+      <address className="flex flex-col items-center relative z-10 not-italic mt-6 text-white text-lg md:text-xl">
         <p>3612 Spring Garden St #A, Greensboro, NC 27407</p>
-        <p className="bg-red-500 p-2 rounded-xl mt-3 text-xl md:text-2xl">
-          <a href="tel:13364588100" className="hover:underline">
+        <div className='flex'>
+                <a className="bg-red-600 items-center hover:bg-red-700 shadow-sm p-2 px-10 rounded-xl mt-3 text-xl" href="tel:13364588100" >
             (336) 458-8100
-          </a>
-        </p>
+          </a></div>
       </address>
     </section>
   );
