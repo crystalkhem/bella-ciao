@@ -66,8 +66,8 @@ export default function HomePage() {
 
   return (
     <div className={` bg-neutral-900 ${playfair.className}`}>
-      <Hero />
-      <About />
+      <Hero  />
+      <About className='h-screen flex flex justify-center align-center'/>
       <Highlights />
       <Hours />
       <Testimonials />

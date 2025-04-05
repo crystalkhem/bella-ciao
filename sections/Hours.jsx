@@ -3,7 +3,7 @@ const Hours = () => {
   return (
 
 
-<section id='hours' className="scroll-mt-20 bg-neutral-900 text-white py-16 px-6 md:px-20">
+<section id='hours' className="md:h-screen flex items-center justify-center scroll-mt-20 bg-neutral-900 text-white py-16 px-6 md:px-20">
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
     {/* Left Image */}
     <div className="hidden md:w-1/3 md:flex overflow-hidden rounded-[200px]">
@@ -15,7 +15,7 @@ const Hours = () => {
     </div>
 
     {/* Middle Content */}
-    <div className="w-full md:w-1/3 text-center">
+    <div className="w-full md:1/3 lg:w-2/3 text-center">
       <p className="uppercase text-sm tracking-wide text-gray-300 mb-2">
         Operating Schedule
       </p>
