@@ -3,7 +3,8 @@ import { Playfair_Display_SC } from 'next/font/google';
 
 const play900 = Playfair_Display_SC({
   weight: ['700'],
-  style: ['italic'],
+  style: ['italic'], 
+  display: 'swap',
  subsets: ['latin'] })
 
 const Hero = () => {

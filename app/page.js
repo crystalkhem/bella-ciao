@@ -9,7 +9,8 @@ import { Playfair_Display  } from "next/font/google";
 import Head from "next/head";
 
 const playfair = Playfair_Display({
- subsets: ['latin'] })
+ subsets: ['latin'],
+display: 'swap' })
 
 export default function HomePage() {
     <Head>
@@ -60,6 +61,8 @@ export default function HomePage() {
         ]
       })
     }} />
+
+<link rel="preload" as="image" href="/crepe1.webp" />
   </Head>
 
   return (
