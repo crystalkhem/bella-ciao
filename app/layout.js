@@ -1,7 +1,7 @@
 import "./globals.css";
-import dynamic from 'next/dynamic'
-const Navbar = dynamic(() => import('@/components/Navbar'))
 
+import dynamic from 'next/dynamic'
+const Navbar = dynamic(() => import('@/components/Navbar'), { ssr: false })
 
 export const metadata = {
   title: "Bella Ciao - Greensboro, NC Cafe & Creperie",
