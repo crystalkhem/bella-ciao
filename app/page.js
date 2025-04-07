@@ -8,8 +8,6 @@ import Footer from "@/components/Footer";
 import { Playfair_Display  } from "next/font/google";
 import Head from "next/head";
 
-
-
 const playfair = Playfair_Display({
  subsets: ['latin'] })
 
@@ -34,7 +32,7 @@ export default function HomePage() {
       property="og:description"
       content="Experience a cozy European café vibe in Greensboro. Sweet and savory crepes, fresh coffee, and welcoming charm await."
     />
-    <meta property="og:image" content="/preview.png" />
+    <meta property="og:image" content="/preview.webp" />
     <meta property="og:url" content="https://yourwebsite.com" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +42,7 @@ export default function HomePage() {
         "@context": "https://schema.org",
         "@type": "CafeOrCoffeeShop",
         "name": "Bella Ciao",
-        "image": "https://yourwebsite.com/preview.png",
+        "image": "https://yourwebsite.com/preview.webp",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "3612-A Spring Garden Street",

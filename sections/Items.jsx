@@ -20,7 +20,7 @@ const Items = () => {
         <article>
           <div className="relative w-full h-64 mb-6 shadow-xl">
             <Image
-              src="/crepesquare.JPG"
+              src="/crepesquare.webp"
               alt="Sweet and savory crepes made to order"
               fill
               className="object-cover"
@@ -39,7 +39,7 @@ const Items = () => {
         <article>
           <div className="relative w-full h-64 mb-6 shadow-xl">
             <Image
-              src="/coffeecup.JPG"
+              src="/coffeecup.webp"
               alt="Handcrafted Fortuna Coffee cup"
               fill
               className="object-cover"
@@ -58,7 +58,7 @@ const Items = () => {
         <article>
           <div className="relative w-full h-64 mb-6 shadow-xl">
             <Image
-              src="/macarons.JPG"
+              src="/macarons.webp"
               alt="Freshly baked macarons and pastries"
               fill
               className="object-cover"

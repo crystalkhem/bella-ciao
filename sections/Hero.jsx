@@ -11,7 +11,7 @@ const Hero = () => {
     <section
       id="home"
       aria-labelledby="hero-heading"
-      className="relative flex items-center justify-center flex-col text-center mb-12 h-screen bg-[url(/crepe1.png)] bg-center md:bg-cover bg-fixed"
+      className="relative flex items-center justify-center flex-col text-center mb-12 h-screen bg-[url(/crepe1.webp)] bg-center md:bg-cover bg-fixed"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>

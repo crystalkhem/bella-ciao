@@ -45,7 +45,7 @@ const Hours = () => {
     {/* Right Image */}
     <div className="hidden md:w-1/3 md:flex overflow-hidden rounded-[200px]">
       <img
-        src="/coffee.jpg"
+        src="/coffee.webp"
         alt="Café interior"
         className="object-cover w-full h-full"
       />
