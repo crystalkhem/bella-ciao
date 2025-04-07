@@ -18,10 +18,10 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#home" aria-label="Bella Ciao Homepage">
           <Image
-            src="/bellaciao.JPG"
+            src="/bellaciao.webp"
             width={100}
             height={100}
-            alt="Bella Ciao Café logo"
+            alt="Bella Ciao Café logo" priority={true}
           />
         </a>
 

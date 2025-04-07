@@ -23,7 +23,7 @@ const Items = () => {
               src="/crepesquare.webp"
               alt="Sweet and savory crepes made to order"
               fill
-              className="object-cover"
+              className="object-cover" priority={true}
             />
           </div>
           <div className="flex items-baseline gap-2 mb-2">
@@ -42,7 +42,7 @@ const Items = () => {
               src="/coffeecup.webp"
               alt="Handcrafted Fortuna Coffee cup"
               fill
-              className="object-cover"
+              className="object-cover" priority={true}
             />
           </div>
           <div className="flex items-baseline gap-2 mb-2">
@@ -61,7 +61,7 @@ const Items = () => {
               src="/macarons.webp"
               alt="Freshly baked macarons and pastries"
               fill
-              className="object-cover"
+              className="object-cover" priority={true}
             />
           </div>
           <div className="flex items-baseline gap-2 mb-2">
