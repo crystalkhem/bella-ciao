@@ -8,7 +8,7 @@ const Testimonials = () => {
       className="mt-16 text-center bg-[#f3efe8] py-14 px-5"
     >
       <h2 id="testimonials-heading" className="text-4xl font-bold text-rose-700 mb-4">
-        What Our Customers Say
+        Customer Testimonials
       </h2>
 
       <div className="border-t border-neutral-500 w-20 mx-auto m-8" />

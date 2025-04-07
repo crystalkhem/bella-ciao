@@ -7,7 +7,7 @@ const Items = () => {
     className="scroll-mt-15 bg-[#f3efe8] py-20 px-6 md:px-16"
   >
     <h2 id="items-heading" className="text-color-[#f3efe8] text-4xl font-bold text-black mb-4 text-center">Featured Café Items</h2>
-    <div className="border-t border-rose-500 w-20 mx-auto m-8" />
+    <div className="border-t border-rose-500 w-20 mx-auto m-5 mb-8" />
   
     <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 text-center md:text-left">
       {/* Item 1 */}
@@ -15,7 +15,7 @@ const Items = () => {
         <img
           src="/crepesquare.JPG"
           alt="Sweet and savory crepes made to order"
-          className="w-full h-64 object-cover mb-6"
+          className="shadow-xl w-full h-64 object-cover mb-6"
         />
         <div className="flex items-baseline gap-2 mb-2">
           <span className="text-4xl font-serif text-cozy-gold font-semibold italic">01</span>
@@ -31,7 +31,7 @@ const Items = () => {
         <img
           src="/coffeecup.JPG"
           alt="Handcrafted Fortuna Coffee cup"
-          className="w-full h-64 object-cover mb-6"
+          className="shadow-xl w-full h-64 object-cover mb-6"
         />
         <div className="flex items-baseline gap-2 mb-2">
           <span className="text-4xl font-serif text-cozy-gold font-semibold italic">02</span>
@@ -47,7 +47,7 @@ const Items = () => {
         <img
           src="/macarons.JPG"
           alt="Freshly baked macarons and pastries"
-          className="w-full h-64 object-cover mb-6"
+          className="shadow-xl w-full h-64 object-cover mb-6"
         />
         <div className="flex items-baseline gap-2 mb-2">
           <span className="text-4xl font-serif text-cozy-gold font-semibold italic">03</span>
