@@ -22,7 +22,7 @@ const Hero = () => {
         id="hero-heading"
         className="relative z-10 text-white font-extrabold text-5xl md:text-7xl leading-tight drop-shadow-lg"
       >
-        <span className={`${play900.className}  block text-6xl md:text-7xl`}>Bella Ciao</span>
+        <span className={`${play900.className} font-serif block text-6xl md:text-7xl`}>Bella Ciao</span>
         <span className="block text-2xl md:text-3xl font-normal italic mt-3">
           European Café & Creperie
         </span>
