@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Playfair_Display_SC } from 'next/font/google';
 
 const play900 = Playfair_Display_SC({
