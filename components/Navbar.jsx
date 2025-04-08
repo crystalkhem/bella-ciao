@@ -60,7 +60,7 @@ const Navbar = () => {
           <ul className="flex flex-col space-y-4 text-white font-medium">
             <li><a href="#home" onClick={() => setIsOpen(false)}>Home</a></li>
             <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
-            <li><a href="#items" onClick={() => setIsOpen(false)}>Items</a></li>
+            <li><a href="#menu" onClick={() => setIsOpen(false)}>Menu</a></li>
             <li><a href="#hours" onClick={() => setIsOpen(false)}>Hours</a></li>
             <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
             <li>
