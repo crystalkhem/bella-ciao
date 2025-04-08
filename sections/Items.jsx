@@ -58,7 +58,7 @@ const Items = () => {
         <article>
           <div className="relative w-full h-64 mb-6 shadow-xl">
             <Image
-              src="/macarons.webp"
+              src="/baklava.webp"
               alt="Freshly baked macarons and pastries"
               fill
               className="object-cover" priority={true}

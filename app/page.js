@@ -7,6 +7,7 @@ import Hero from "@/sections/Hero";
 import Footer from "@/components/Footer";
 import { Playfair_Display  } from "next/font/google";
 import Head from "next/head";
+import Menu from "@/sections/Menu";
 
 const playfair = Playfair_Display({
  subsets: ['latin'],
@@ -69,6 +70,7 @@ export default function HomePage() {
     <div className={` bg-neutral-900 ${playfair.className}`}>
       <Hero  />
       <About className='h-screen flex flex justify-center align-center'/>
+      <Menu />
       <Highlights />
       <Hours />
       <Testimonials />
