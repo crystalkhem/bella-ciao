@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Menu = () => {
   return (
-    <section id='menu' className='relative py-2 mb-2 md:p-15 w-full h-auto bg-black'>
+    <section id='menu' className='relative py-2 scroll-mt-20 mb-2 md:p-15 w-full h-auto bg-black'>
 
 <h2
         id="items-heading"

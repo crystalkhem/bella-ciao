@@ -29,7 +29,7 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6 text-white font-medium">
           <li><a href="#home" className="hover:text-red-500">Home</a></li>
           <li><a href="#about" className="hover:text-red-500">About</a></li>
-          <li><a href="#items" className="hover:text-red-500">Items</a></li>
+          <li><a href="#menu" className="hover:text-red-500">Menu</a></li>
           <li><a href="#hours" className="hover:text-red-500">Hours</a></li>
           <li><a href="#contact" className="hover:text-red-500">Contact</a></li>
           <li>
