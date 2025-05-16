@@ -1,6 +1,6 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "Bella Ciao - Greensboro, NC Cafe & Creperie",
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       <body      >
       <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
